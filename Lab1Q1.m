@@ -5,4 +5,4 @@ signal = 0:T:1;
 
 waveform = mag*sin(2*pi*freq*signal);
 
-stem(signal, waveform);
+plot(signal, waveform);
